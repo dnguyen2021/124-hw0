@@ -3,7 +3,7 @@ package edu.macalester.comp124.hw0;
 /**
  * @author Shilad Sen
  */
-public class Area {
+public class `Area {
     /**
      * Calculates the area of a square.
      * @param sideLength The length of the side of a square
