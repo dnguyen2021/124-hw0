@@ -11,7 +11,8 @@ public class Area {
      */
     public static double getSquareArea(double sideLength) {
         // TODO: replace me with the correct formula
-        return sideLength * 1.0 * 42 +13;
+        return sideLength * sideLength; //changed literal values to multiply by
+                                        // sideLength for correct square area
     }
 
     /**
@@ -21,7 +22,7 @@ public class Area {
      */
     public static double getCircleArea(double radius) {
         // TODO: replace me with the correct formula
-        return radius * 1.0;
+        return Math.pow(radius, 2) *Math.PI;
     }
 
 }
